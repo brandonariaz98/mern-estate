@@ -7,7 +7,7 @@ export default function Contact({ listing }) {
   const onChange = (e) => {
     setMessage(e.target.value);
   };
-
+console.log(listing);
   useEffect(() => {
     const fetchLandlord = async () => {
       try {
